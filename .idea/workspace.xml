@@ -4,34 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb423e86-7530-498c-9d88-415228979884" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/textgame/JavaGameApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/textgame/controllers/NewGameController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/textgame/model/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/textgame/model/NPC/Enemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/textgame/model/Observable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/textgame/model/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/textgame/model/player/ConfigClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/textgame/model/player/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/textgame/model/player/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/textgame/model/player/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/textgame/model/player/Warrior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/textgame/model/player/inventory/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/textgame/model/player/inventory/InventoryItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/textgame/model/player/inventory/PlayerBuilderInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/game/textgame/hello-view.fxml" afterDir="false" />
+    <list default="true" id="fb423e86-7530-498c-9d88-415228979884" name="Changes" comment="Initial file">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/textgame/controllers/MiniMapController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/textgame/model/map/MiniMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/textgame/model/map/mapElement/MapElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/game/textgame/model/map/mapElement/MapElementData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/game/textgame/MiniMap.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/game/textgame/JavaGameApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/game/textgame/JavaGameApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/game/textgame/controllers/NewGameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/game/textgame/controllers/NewGameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/game/textgame/model/player/ConfigClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/game/textgame/model/player/ConfigClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/game/textgame/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/game/textgame/BasicViewer.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -96,6 +80,19 @@
       <option name="presentableId" value="Default" />
       <updated>1691303755145</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial file">
+      <option name="closed" value="true" />
+      <created>1691333305130</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691333305130</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial file" />
   </component>
 </project>
