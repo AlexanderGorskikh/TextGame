@@ -6,4 +6,6 @@ public class ConfigClass {
     public static final int WARRIOR_BASIC_MP = 60;
     // Константы для карт
     public static final int MAP_SIZE_X = 30;
+
+    public static final int MAP_SIZE_Y = 30;
 }

@@ -23,4 +23,8 @@ public abstract class Enemy {
 
     public abstract void attack(Player player);
     public abstract InventoryItem getLoot();
+
+    public int getGold() {
+        return gold;
+    }
 }
