@@ -2,7 +2,7 @@ package com.game.textgame.model.map.mapElement;
 
 import javafx.scene.paint.Color;
 
-public abstract class MapElement {
+public class MapElement {
     private int id;
     private Color color;
 
